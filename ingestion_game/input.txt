@@ -1,0 +1,7 @@
+name=levy,type=A,id=3,food=pizza
+type=B,name=lima,noise=hello,more_noise=bye,id=?,food=fish
+type=B,name=lima,noise=hello,more_noise=bye,id=1,food=fish
+name=name,noise=hello,more_noise=bye,id=1,food=vegetables,type=A
+type=C,name=my_name,food=sushi,id=10000
+name=lemon,type=A,random_key=random_value,food=lemonade,id=10
+name=guido,noisy=noise,food=snakes,id=3
