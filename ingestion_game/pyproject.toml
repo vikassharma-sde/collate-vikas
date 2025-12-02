@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ingestion-game"
+version = "0.1.0"
+description = "CLI tool to ingest key=value data rows with schema validation and hierarchy ordering."
+readme = "readme.md"
+authors = [
+    { name = "Vikas Sharma", email = "vikassharma.sde@gmail.com" }
+]
+requires-python = ">=3.8"
+
+# entry point = CLI command
+[project.scripts]
+ingestion_game = "ingestion_game.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

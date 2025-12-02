@@ -1,0 +1,2 @@
+[console_scripts]
+ingestion_game = ingestion_game.cli:main

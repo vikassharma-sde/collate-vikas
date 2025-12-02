@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+src/ingestion_game/__init__.py
+src/ingestion_game/cli.py
+src/ingestion_game.egg-info/PKG-INFO
+src/ingestion_game.egg-info/SOURCES.txt
+src/ingestion_game.egg-info/dependency_links.txt
+src/ingestion_game.egg-info/entry_points.txt
+src/ingestion_game.egg-info/top_level.txt
